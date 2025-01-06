@@ -1,5 +1,5 @@
 #!/bin/bash
-cd ~/servers/pihole/pihole-adlist-merged/
+cd ~/servers/pihole/auto-adlist/
 rm ./merged.txt
 declare -a lists=(
 "https://blocklistproject.github.io/Lists/ads.txt" 
@@ -20,6 +20,7 @@ declare -a lists=(
 "https://v.firebog.net/hosts/Admiral.txt"
 "https://v.firebog.net/hosts/AdguardDNS.txt"
 "https://adaway.org/hosts.txt"
+"https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV.txt"
 )
 
 for list in "${lists[@]}"
