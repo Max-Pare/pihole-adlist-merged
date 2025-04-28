@@ -36,5 +36,5 @@ fi
 
 git add *
 git pull
-git commit -m "daily automatic update"
+git commit -m "automatic update"
 git push
